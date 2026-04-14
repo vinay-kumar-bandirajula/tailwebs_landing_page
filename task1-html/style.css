@@ -1,0 +1,111 @@
+/* Custom CSS for Landing Page */
+
+:root {
+    --primary-blue: #0A58CA;
+    --dark-blue: #0b1a30;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Utility Animations */
+.hover-lift {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.1) !important;
+}
+
+/* Nav */
+.navbar-nav .nav-link {
+    transition: color 0.2s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--primary-blue) !important;
+}
+
+/* Hero Section */
+.hero-highlight::after {
+    content: '';
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 100%;
+    height: 12px;
+    background-color: #dbeafe;
+    z-index: -1;
+    border-radius: 4px;
+}
+
+.hero-bg-blob {
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle, rgba(13,110,253,0.1) 0%, rgba(255,255,255,0) 70%);
+    top: -50px;
+    right: -50px;
+    border-radius: 50%;
+}
+
+/* Stats Section */
+.stats-bg {
+    background-color: #0d233a;
+}
+.stats-bg .bg-overlay {
+    background: linear-gradient(to right, rgba(10, 25, 47, 0.9), rgba(10, 25, 47, 0.7));
+}
+
+/* Features */
+.features-section .card {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.features-section .card:hover {
+    filter: brightness(1.05);
+}
+
+/* Quotes */
+.highlight-bg::after {
+    content: '';
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 100%;
+    height: 12px;
+    background-color: rgba(13, 202, 240, 0.3); /* Info color light */
+    z-index: -1;
+    border-radius: 4px;
+}
+
+/* DIGIT Section */
+.bg-dark-blue {
+    background-color: var(--dark-blue);
+    background-image: radial-gradient(circle at top left, #1a365d, #0b1a30);
+}
+
+.image-blend {
+    mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+}
+
+/* Supporters */
+.grayscale-hover img {
+    filter: grayscale(100%);
+    transition: filter 0.3s ease, opacity 0.3s ease;
+    opacity: 0.6;
+}
+
+.grayscale-hover img:hover {
+    filter: grayscale(0);
+    opacity: 1;
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
