@@ -22,7 +22,7 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className="col-lg-6 mt-5 mt-lg-0 z-2 position-relative">
-                    <img src="https://placehold.co/800x600/e0eaf5/3673b5?text=Frontline+Workers"
+                    <img src="https://picsum.photos/seed/hero/800/600"
                         className="img-fluid rounded-4 shadow-lg hero-img" alt="Frontline Workers" />
                     <div className="hero-bg-blob"></div>
                 </div>

@@ -7,35 +7,35 @@ const DUMMY_PRODUCTS = [
     name: "Digital Public Goods: Health",
     category: "Articles",
     price: "$0.00 (Open Source)",
-    image: "https://placehold.co/400x250/dddddd/333333?text=Health+Article"
+    image: "https://picsum.photos/seed/health/400/250"
   },
   {
     id: 2,
     name: "Evolving Digital Infrastructure",
     category: "eGov Updates",
     price: "$50.00 / yr support",
-    image: "https://placehold.co/400x250/17a2b8/ffffff?text=Infrastructure"
+    image: "https://picsum.photos/seed/infra/400/250"
   },
   {
     id: 3,
     name: "Building resilient frontline capability in 2025",
     category: "Milestones",
     price: "$120.00",
-    image: "https://placehold.co/400x250/efefef/333333?text=2025+Milestone"
+    image: "https://picsum.photos/seed/milestone/400/250"
   },
   {
     id: 4,
     name: "Case Study: Sanitation transformation",
     category: "Case Study",
     price: "Free",
-    image: "https://placehold.co/400x250/f8f9fa/111111?text=Sanitation"
+    image: "https://picsum.photos/seed/sanit/400/250"
   },
   {
     id: 5,
     name: "Press Release: Impacting 1 Billion",
     category: "Press Awards",
     price: "N/A",
-    image: "https://placehold.co/400x250/0d6efd/ffffff?text=Press+Release"
+    image: "https://picsum.photos/seed/press/400/250"
   }
 ];
 
